@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Singolo</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <script>
+    window.onload =() => {
+      let logo = document.querySelector(".header__logo")
+      logo.classList.add("rotate-logo")
+      setTimeout(() => {
+        logo.classList.remove("rotate-logo")
+      }, 5000)
+    }
+  </script>
+  <div class="wrapper">
+    <header class="header">
+      <a href="./index.html" class="header__logo">Singolo<span>*</span></a>
+      <ul class="header__nav">
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">Services</a>
+        </li>
+        <li>
+          <a href="#">Portfolio</a>
+        </li>
+        <li>
+          <a href="#">About</a>
+        </li>
+        <li>
+          <a href="#">Contact</a>
+        </li>
+      </ul>
+    </header>
+    <main class="main">
+      <div class="main__slider">
+        <div class="main__slider-prev">
+          <img src="./assets/images/arrow.png" alt="prev" />
+        </div>
+        <div class="main__slider-images">
+          <img src="./assets/images/phone-vertical-shadow.png" alt="vertical-phone" />
+          <img src="./assets/images/phone-horizontal-shadow.png" alt="horizontal-phone" />
+        </div>
+        <div class="main__slider-next">
+          <img src="./assets/images/arrow.png" alt="next" />
+        </div>
+      </div>
+      <div class="main__services">
+        <h1 class="main__services-title">Our Services</h1>
+        <p class="main__services-description">
+          Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum.
+          Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. 
+          Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
+        </p>
+        <div class="main__services-list">
+          <div class="main__services-item">
+            <div class="main__services-item-icon">
+              <img src="./assets/images/pen-icon.png" alt="pen">
+            </div>
+            <div class="main__services-item-about">
+              <h5 class="main__services-item-name">Custom Design</h5>
+              <h6 class="main__services-item-description">
+                Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.
+              </h6>
+            </div>
+          </div>
+          <div class="main__services-item">
+            <div class="main__services-item-icon">
+              <img src="./assets/images/bulb-icon.png" alt="pen">
+            </div>
+            <div class="main__services-item-about">
+              <h5 class="main__services-item-name">Inovative Ideas</h5>
+              <h6 class="main__services-item-description">
+                Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.
+              </h6>
+            </div>
+          </div>
+          <div class="main__services-item">
+            <div class="main__services-item-icon">
+              <img src="./assets/images/heart-icon.png" alt="pen">
+            </div>
+            <div class="main__services-item-about">
+              <h5 class="main__services-item-name">Love Is The Answer</h5>
+              <h6 class="main__services-item-description">
+                Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum.
+              </h6>
+            </div>
+          </div>
+          <div class="main__services-item">
+            <div class="main__services-item-icon">
+              <img src="./assets/images/phone-icon.png" alt="pen">
+            </div>
+            <div class="main__services-item-about">
+              <h5 class="main__services-item-name">Responsive Layout</h5>
+              <h6 class="main__services-item-description">
+                Sed porttitor placerat rhoncus. In at nunc tellus. Maecenas blandit nunc ligula. Prae-sent elit leo.
+              </h6>
+            </div>
+          </div>
+          <div class="main__services-item">
+            <div class="main__services-item-icon">
+              <img src="./assets/images/bubble-icon.png" alt="pen">
+            </div>
+            <div class="main__services-item-about">
+              <h5 class="main__services-item-name">24 / 7 Support</h5>
+              <h6 class="main__services-item-description">
+                Vivamus vel quam lacinia, tincidunt dui non, vehicula nisi. Nulla a sem erat. Pellentesque egestas venenatis lorem .
+              </h6>
+            </div>
+          </div>
+          <div class="main__services-item">
+            <div class="main__services-item-icon">
+              <img src="./assets/images/star-icon.png" alt="pen">
+            </div>
+            <div class="main__services-item-about">
+              <h5 class="main__services-item-name">Feel Like A Star</h5>
+              <h6 class="main__services-item-description">
+                Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus.
+              </h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
